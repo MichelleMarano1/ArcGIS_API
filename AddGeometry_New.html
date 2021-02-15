@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title> Adazi </title>
+  <style>
+    html, 
+    body {
+       height: 100%;
+       background-color: #e64a64;
+    }
+
+    .container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 48pt;
+  font-family: "Arial Black", sans-serif
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    .header {
+      background-color:#e64a64;
+      text-align: center;
+      padding: 10px;
+      color:white;
+      }
+
+    p{
+      font-family: 'sans-serif', Verdana, Tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    line-height: inherit;
+    }
+
+    #viewDiv {
+      padding: 0;
+      margin:auto;
+      align-content: center;
+      height: 100%;
+      width: 100%;
+      border-style: solid;
+      border-color: #ffffff;
+      border-width: medium;
+    }
+
+   .footer {
+   background-color: #ff0055;
+   text-align: center;
+    padding: 1px;
+    color:white;
+    font-size: 12px;
+    font-family: 'Courier New';
+   }
+
+
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.18/"></script>
+  <script>
+
+  require([
+    "esri/config","esri/Map","esri/views/MapView","esri/Graphic","esri/layers/GraphicsLayer" ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+  esriConfig.apiKey = "AAPK304b90fc364641fe9ba1d9f65b55585ekYQV67knFHB2NvN4mPG4KTRqXXrX5r5IlsSX2m4R6288kNGX1-H1wTC2eJJppjjS";
+  // Set up the map and its basic view
+  const map = new Map({
+    basemap: "arcgis-colored-pencil" //Basemap layer service
+  });
+
+  const view = new MapView({
+    map: map,
+    center: [24.36079,57.10289], //Longitude, latitude for Wales
+    zoom: 10,
+    container: "viewDiv"
+ });
+
+// creates the graphics layer - you can have multiple graphics in a maps
+ const graphicsLayer = new GraphicsLayer();
+ map.add(graphicsLayer);
+
+
+ // Piejūra
+
+ const pointB = { 
+    type: "point",
+    longitude: 24.30239,
+    latitude: 57.16186
+ };
+
+ const simpleMarkerSymbolB = { // sets symbology for point
+    type: "simple-marker",
+    color: [255, 20, 147],  // Pink
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
+ // use this to set the point graphic
+  // Add a pop-up for the polygon layer on a click
+  const popupTemplateB = { // defines the pop-up with empty attributes
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributesB = { // applies the attributes to the pop-up
+    Name: "Piejūra -  National Park",
+    Description: " My partners favourite place to go :) "
+ } 
+ 
+ const pointGraphicB = new Graphic({
+    geometry: pointB,
+    symbol: simpleMarkerSymbolB, 
+    attributes: attributesB,
+    popupTemplate: popupTemplateB
+ });
+
+ graphicsLayer.add(pointGraphicB); // add the newly created point to the graphics layer
+
+
+ // The Freedom Monument
+ const pointP = { 
+    type: "point",
+    longitude: 24.11354,
+    latitude: 56.95282
+ };
+
+ const simpleMarkerSymbolP = { // sets symbology for point
+    type: "simple-marker",
+    color: [255, 20, 147],  // Pink
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
+ // use this to set the point graphic
+  // Add a pop-up for the polygon layer on a click
+  const popupTemplateP = { // defines the pop-up with empty attributes
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributesP = { // applies the attributes to the pop-up
+    Name: "The Freedom Monument",
+    Description: "42m statue dedicated to Latvians who lost their lives fighting for independence between 1918 & 1920"
+ } 
+ 
+ const pointGraphicP = new Graphic({
+    geometry: pointP,
+    symbol: simpleMarkerSymbolP, 
+    attributes: attributesP,
+    popupTemplate: popupTemplateP
+ });
+
+ graphicsLayer.add(pointGraphicP); // add the newly created point to the graphics layer
+
+
+ // Mario Pizza & Pasta
+ const pointC = { 
+    type: "point",
+    longitude: 24.33377,
+    latitude: 57.07983
+ };
+
+ const simpleMarkerSymbolC = { // sets symbology for point
+    type: "simple-marker",
+    color: [255, 20, 147],  // Pink
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
+ // use this to set the point graphic
+  // Add a pop-up for the polygon layer on a click
+  const popupTemplateC = { // defines the pop-up with empty attributes
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributesC = { // applies the attributes to the pop-up
+    Name: "Mario Pizza & Pasta",
+    Description: " My partners favorite pizza place"
+ } 
+ 
+ const pointGraphicC = new Graphic({
+    geometry: pointC,
+    symbol: simpleMarkerSymbolC, 
+    attributes: attributesC,
+    popupTemplate: popupTemplateC
+ });
+
+ graphicsLayer.add(pointGraphicC); // add the newly created point to the graphics layer
+
+  // ######### POLYGON #########
+  const polygon = { // sets the polygon geometry
+    type: "polygon",
+    rings:           [
+          [
+            [
+              24.33197021484375,
+              57.097095263654545
+            ],
+            [
+              24.292831420898438,
+              57.0963492611013
+            ],
+            [
+              24.25918579101562,
+              57.09149987857074
+            ],
+            [
+              24.220046997070312,
+              57.08329178613487
+            ],
+            [
+              24.1864013671875,
+              57.062390260956775
+            ],
+            [
+              24.182281494140625,
+              57.042597613827695
+            ],
+            [
+              24.203567504882812,
+              57.023168158325696
+            ],
+            [
+              24.215240478515625,
+              57.01045879046371
+            ],
+            [
+              24.2413330078125,
+              56.99811907293155
+            ],
+            [
+              24.30793762207031,
+              56.98165974858867
+            ],
+            [
+              24.3511962890625,
+              56.97305311404492
+            ],
+            [
+              24.423980712890625,
+              56.96182407949611
+            ],
+            [
+              24.45419311523437,
+              56.99699707746233
+            ],
+            [
+              24.484405517578125,
+              57.03848838384055
+            ],
+            [
+              24.49951171875,
+              57.06463027327855
+            ],
+            [
+              24.501571655273438,
+              57.08254550582424
+            ],
+            [
+              24.4940185546875,
+              57.10343567925725
+            ],
+            [
+              24.463806152343746,
+              57.12394135881104
+            ],
+            [
+              24.419174194335934,
+              57.1265503584275
+            ],
+            [
+              24.383468627929688,
+              57.121704927118515
+            ],
+            [
+              24.355316162109375,
+              57.111266460048355
+            ],
+            [
+              24.33197021484375,
+              57.097095263654545
+            ]
+          ]
+  ]
+ };
+
+ const simpleFillSymbol = { // sets the polygon symbology
+    type: "simple-fill",
+    color: [254, 27, 156, 0.4],  // Pink, opacity 50%
+    outline: {
+        color: [254, 27, 156],
+        width: 1
+    }
+ };
+
+ // Add a pop-up for the polygon layer on a click
+ const popupTemplate = { // defines the pop-up with empty attributes
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributes = { // applies the attributes to the pop-up
+    Name: "The Base",
+    Description: " Our trop are located somewhere here... I wont give up the top secret location though :)   "
+ }
+
+ const polygonGraphic = new Graphic({ // creates the poly-graphic pop-up
+    geometry: polygon,
+    symbol: simpleFillSymbol,
+    attributes: attributes,
+    popupTemplate: popupTemplate
+
+ });
+ graphicsLayer.add(polygonGraphic);
+
+ });
+ 
+</script>
+</head>
+<body>
+  <div class="container">
+    <img src="funny_valentines_day_cards_banner.png" alt="val" width="440" height="200" style="width:100%;">
+    <div class="centered"> My Special Place</div>
+
+  </div>  
+    <div>
+    <p> This map shows a marker and polygon outlining where our Canadian soldiers currently are deployed, My partner is currently here for 6 months. Adazi Military Camp is located in Latvia, part of NATO under operation reassurance guarding against the Russian aggression</p>
+    <p>Valentines Day was spent alone this year :)  </p>
+
+    </div>
+
+    <!-- use the id of the map to call in the map function-->
+  <div id="viewDiv"></div>
+
+  <!-- footer -->
+  <div class="footer">
+    <p> Michelle Marano 2021    :) </p>
+  </div>
+
+</body>
+</html>
