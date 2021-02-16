@@ -6,16 +6,15 @@ Created a new and empty layer for a framework for my data
 
 ## Item ID:
 
-df72c711db6348ed995d4e5ffde2de98
+0a1cb58391844576a157a02e7c3eabe1
 
 ## Layer URL
 
-https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_database_survey1/FeatureServer
+https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_survey/FeatureServer
 
 ## REST URL
 
-https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_database_survey1/FeatureServer
-
+https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_survey/FeatureServer
 
 ## Trying to add data from my new empty hosted layer in map veiwer!
 
