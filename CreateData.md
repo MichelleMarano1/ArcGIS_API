@@ -14,7 +14,7 @@ https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collecti
 
 ## Adding data 
 
-https://github.com/MichelleMarano1/ArcGIS_API/issues/1#issue-809677760
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/73148622/108126756-31debf00-7078-11eb-9cd4-bc0d75f01db7.png)
 
 
 
