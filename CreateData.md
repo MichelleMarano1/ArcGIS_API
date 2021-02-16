@@ -1,4 +1,6 @@
-# Tree Collection Database Survey 
+# ArcGIS Online Developers Website 
+
+### Tree Collection Database Survey 
 
 Created a new and empty layer for a framework for my data
 
@@ -8,9 +10,12 @@ Created a new and empty layer for a framework for my data
 
 0a1cb58391844576a157a02e7c3eabe1
 
-## Layer URL
+## Layer URL 
+the Rest End Point
 
 https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_survey/FeatureServer
+
+# Using webmap
 
 ## REST URL
 
