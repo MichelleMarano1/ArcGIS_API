@@ -24,7 +24,7 @@ I kept getting an error when trying to add a point in my map, I kept adding this
 
 ![point](https://user-images.githubusercontent.com/73148622/108126996-91d56580-7078-11eb-90cf-4123f286940b.JPG)
 
-I tried to create new points and the points showed up just not in the table
+I tried to create two new points, the points showed up on the map just not in the table
 
 ![points2](https://user-images.githubusercontent.com/73148622/108129161-c860af80-707b-11eb-862f-21fd9f0cb18a.JPG)
 
