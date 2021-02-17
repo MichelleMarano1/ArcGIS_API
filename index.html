@@ -52,6 +52,7 @@ height: 70%;
 width: 80%;
 border: 5px solid rgb(253, 253, 253);
 border-radius: 5px;
+
 }
 
   </style>
@@ -60,7 +61,7 @@ border-radius: 5px;
   <script>
 
   require([
-    "esri/config","esri/Map","esri/views/MapView","esri/Graphic","esri/layers/GraphicsLayer" ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+    "esri/config","esri/Map","esri/views/MapView","esri/Graphic","esri/tasks/Locator","esri/layers/GraphicsLayer" ], function(esriConfig,Map, MapView, Graphic, Locator, GraphicsLayer) {
 
   esriConfig.apiKey = "AAPK304b90fc364641fe9ba1d9f65b55585ekYQV67knFHB2NvN4mPG4KTRqXXrX5r5IlsSX2m4R6288kNGX1-H1wTC2eJJppjjS";
 
@@ -124,7 +125,7 @@ border-radius: 5px;
     latitude: 56.95282
  };
 
- const simpleMarkerSymbolP = { // sets symbology for point
+ const simpleMarkerSymbolP = { 
     type: "simple-marker",
     color: [255, 20, 147],  // Pink
     outline: {
@@ -132,13 +133,12 @@ border-radius: 5px;
         width: 1
     }
  };
- // use this to set the point graphic
-  // Add a pop-up for the polygon layer on a click
-  const popupTemplateP = { // defines the pop-up with empty attributes
+
+  const popupTemplateP = { 
     title: "{Name}",
     content: "{Description}"
  }
- const attributesP = { // applies the attributes to the pop-up
+ const attributesP = { 
     Name: "The Freedom Monument",
     Description: "42m statue dedicated to Latvians who lost their lives fighting for independence between 1918 & 1920"
  } 
@@ -150,7 +150,7 @@ border-radius: 5px;
     popupTemplate: popupTemplateP
  });
 
- graphicsLayer.add(pointGraphicP); // add the newly created point to the graphics layer
+ graphicsLayer.add(pointGraphicP); 
 
 
  // Mario Pizza & Pasta
@@ -160,7 +160,7 @@ border-radius: 5px;
     latitude: 57.07983
  };
 
- const simpleMarkerSymbolC = { // sets symbology for point
+ const simpleMarkerSymbolC = { 
     type: "simple-marker",
     color: [255, 20, 147],  // Pink
     outline: {
@@ -168,13 +168,12 @@ border-radius: 5px;
         width: 1
     }
  };
- // use this to set the point graphic
-  // Add a pop-up for the polygon layer on a click
-  const popupTemplateC = { // defines the pop-up with empty attributes
+
+  const popupTemplateC = { 
     title: "{Name}",
     content: "{Description}"
  }
- const attributesC = { // applies the attributes to the pop-up
+ const attributesC = { 
     Name: "Mario Pizza & Pasta",
     Description: " My partners favorite pizza place"
  } 
@@ -186,9 +185,9 @@ border-radius: 5px;
     popupTemplate: popupTemplateC
  });
 
- graphicsLayer.add(pointGraphicC); // add the newly created point to the graphics layer
+ graphicsLayer.add(pointGraphicC); 
 
-  // ######### POLYGON #########
+  // HEART 
   const polygon = { // sets the polygon geometry
     type: "polygon",
     rings:           [
@@ -294,17 +293,17 @@ border-radius: 5px;
     }
  };
 
- // Add a pop-up for the polygon layer on a click
- const popupTemplate = { // defines the pop-up with empty attributes
+
+ const popupTemplate = {
     title: "{Name}",
     content: "{Description}"
  }
- const attributes = { // applies the attributes to the pop-up
+ const attributes = { 
     Name: "The Base",
     Description: " Our trop are located somewhere here... I wont give up the top secret location though :)   "
  }
 
- const polygonGraphic = new Graphic({ // creates the poly-graphic pop-up
+ const polygonGraphic = new Graphic({ 
     geometry: polygon,
     symbol: simpleFillSymbol,
     attributes: attributes,
@@ -313,12 +312,81 @@ border-radius: 5px;
  });
  graphicsLayer.add(polygonGraphic);
 
- });
+ const places = ["Choose a place type...", "Parks and Outdoors", "Coffee shop", "Food"];
+
+const select = document.createElement("select","");
+  select.setAttribute("class", "esri-widget esri-select");
+  select.setAttribute("style", "width: 175px; font-family: 'Avenir Next W00'; font-size: 1em");
+
+places.forEach(function(p){
+  const option = document.createElement("option");
+  option.value = p;
+  option.innerHTML = p;
+  select.appendChild(option);
+});
+
+view.ui.add(select, "top-right");
+
+const locator = new Locator({
+    url: "http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+});
+
+// Find places and add them to the map
+function findPlaces(category, pt) {
+locator.addressToLocations({
+  location: pt,
+  categories: [category],
+  maxLocations: 25,
+  outFields: ["Place_addr", "PlaceName"]
+})
+
+.then(function(results) {
+  view.popup.close();
+  view.graphics.removeAll();
+
+  results.forEach(function(result){
+    view.graphics.add(
+      new Graphic({
+        attributes: result.attributes,  // Data attributes returned
+        geometry: result.location, // Point returned
+        symbol: {
+         type: "simple-marker",
+         color: "#8cdef7",
+         size: "10px",
+         outline: {
+           color: "#ffffff",
+           width: "1px"
+         }
+        },
+
+        popupTemplate: {
+          title: "{PlaceName}", // Data attribute names
+          content: "{Place_addr}"
+        }
+     }));
+  });
+
+});
+
+}
+
+// Search for places in center of map
+view.watch("stationary", function(val) {
+if (val) {
+   findPlaces(select.value, view.center);
+}
+});
+
+// Listen for category changes and find places
+select.addEventListener('change', function (event) {
+findPlaces(event.target.value, view.center);
+});
+
+});
  
 </script>
 </head>
 <body>
-
 
     </div>
     <div id= box>
@@ -326,7 +394,7 @@ border-radius: 5px;
    <div id="viewDiv">
 
    </div>
-       <h3>This map shows a marker and polygon outlining where our Canadian soldiers currently are deployed, My partner is currently here for 6 months. Adazi Military Camp is located in Latvia, part of NATO under operation reassurance guarding against the Russian aggression</h3>
+       <h3>This map displays where our Canadian soldiers currently are deployed, my partner is currently here for 6 months at the Adazi Military Camp located in Latvia.</h3>
     <p> Valentines Day was spent alone this year :) </p>
 
 </body>
