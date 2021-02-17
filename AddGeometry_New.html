@@ -5,62 +5,54 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
   <title> Adazi (Add a point, line, and polygon) </title>
   <style>
+
     html, 
     body {
-       height: 100%;
-       background-color: #e64a64;
+    height: 100%;
+    background-image: url("wp4778514.jpg");
     }
+    #box {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid rgba(255, 255, 255, 0.692);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to left, #ffcef9, #d3a9f5);
+    width: 70%;
+    height: 90%;
+        }
 
-    .container {
-  position: relative;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 48pt;
-  font-family: "Arial Black", sans-serif
+h1 {
+text-align: center;
+font-family: Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+padding: 20px;
+margin: 10px;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h3 {
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: Helvetica, sans-serif;
+line-height: 3ch;
 }
-    .header {
-      background-color:#e64a64;
-      text-align: center;
-      padding: 10px;
-      color:white;
-      }
 
-    p{
-      font-family: 'sans-serif', Verdana, Tahoma;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    color:white;
-    line-height: inherit;
-    }
-
-    #viewDiv {
-      padding: 0;
-      margin:auto;
-      align-content: center;
-      height: 100%;
-      width: 100%;
-      border-style: solid;
-      border-color: #ffffff;
-      border-width: medium;
-    }
-
-   .footer {
-   background-color: #ff0055;
-   text-align: center;
-    padding: 1px;
-    color:white;
-    font-size: 12px;
-    font-family: 'Courier New';
-   }
-
+p {
+text-align: center;
+color: rgb(105, 164, 231);
+font-family: Lucida Handwriting;
+}
+#viewDiv {
+padding: 0;
+margin: auto;
+height: 60%;
+width: 80%;
+border: 5px solid rgb(253, 253, 253);
+border-radius: 5px;
+}
 
   </style>
   <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
@@ -71,25 +63,25 @@
     "esri/config","esri/Map","esri/views/MapView","esri/Graphic","esri/layers/GraphicsLayer" ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
 
   esriConfig.apiKey = "AAPK304b90fc364641fe9ba1d9f65b55585ekYQV67knFHB2NvN4mPG4KTRqXXrX5r5IlsSX2m4R6288kNGX1-H1wTC2eJJppjjS";
-  // Set up the map and its basic view
+
   const map = new Map({
-    basemap: "arcgis-colored-pencil" //Basemap layer service
+    basemap: "arcgis-colored-pencil" 
   });
 
+  // Lat long for Latvia
   const view = new MapView({
     map: map,
-    center: [24.36079,57.10289], //Longitude, latitude for Wales
-    zoom: 10,
+    center: [24.36079,57.10289], 
+    zoom: 9,
     container: "viewDiv"
  });
 
-// creates the graphics layer - you can have multiple graphics in a maps
+
  const graphicsLayer = new GraphicsLayer();
  map.add(graphicsLayer);
 
 
  // Piejūra
-
  const pointB = { 
     type: "point",
     longitude: 24.30239,
@@ -326,24 +318,16 @@
 </script>
 </head>
 <body>
-  <div class="container">
-    <img src="funny_valentines_day_cards_banner.png" alt="val" width="440" height="200" style="width:100%;">
-    <div class="centered"> My Special Place</div>
 
-  </div>  
-    <div>
-    <p> This map shows a marker and polygon outlining where our Canadian soldiers currently are deployed, My partner is currently here for 6 months. Adazi Military Camp is located in Latvia, part of NATO under operation reassurance guarding against the Russian aggression</p>
-    <p>Valentines Day was spent alone this year :)  </p>
 
     </div>
+    <div id= box>
+      <h1> HAVE A CRAPPY VALENTINES DAY WITH ME :) </h1>
+   <div id="viewDiv">
 
-    <!-- use the id of the map to call in the map function-->
-  <div id="viewDiv"></div>
-
-  <!-- footer -->
-  <div class="footer">
-    <p> Michelle Marano 2021    :) </p>
-  </div>
+   </div>
+       <h3>This map shows a marker and polygon outlining where our Canadian soldiers currently are deployed, My partner is currently here for 6 months. Adazi Military Camp is located in Latvia, part of NATO under operation reassurance guarding against the Russian aggression</h3>
+    <p> Valentines Day was spent alone this year :) </p>
 
 </body>
 </html>
