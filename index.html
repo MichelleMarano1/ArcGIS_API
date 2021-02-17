@@ -83,13 +83,13 @@ border-radius: 5px;
 
 
  // Piejūra
- const pointB = { 
+ const point1 = { 
     type: "point",
     longitude: 24.30239,
     latitude: 57.16186
  };
 
- const simpleMarkerSymbolB = { // sets symbology for point
+ const simpleMarkerSymbol1 = { // sets symbology for point
     type: "simple-marker",
     color: [255, 20, 147],  // Pink
     outline: {
@@ -99,33 +99,33 @@ border-radius: 5px;
  };
  // use this to set the point graphic
   // Add a pop-up for the polygon layer on a click
-  const popupTemplateB = { // defines the pop-up with empty attributes
+  const popupTemplate1 = { // defines the pop-up with empty attributes
     title: "{Name}",
     content: "{Description}"
  }
- const attributesB = { // applies the attributes to the pop-up
+ const attributes1 = { // applies the attributes to the pop-up
     Name: "Piejūra -  National Park",
     Description: " My partners favourite place to go :) "
  } 
  
- const pointGraphicB = new Graphic({
-    geometry: pointB,
-    symbol: simpleMarkerSymbolB, 
-    attributes: attributesB,
-    popupTemplate: popupTemplateB
+ const pointGraphic1 = new Graphic({
+    geometry: point1,
+    symbol: simpleMarkerSymbol1, 
+    attributes: attributes1,
+    popupTemplate: popupTemplate1
  });
 
- graphicsLayer.add(pointGraphicB); // add the newly created point to the graphics layer
+ graphicsLayer.add(pointGraphic1); // add the newly created point to the graphics layer
 
 
  // The Freedom Monument
- const pointP = { 
+ const point2 = { 
     type: "point",
     longitude: 24.11354,
     latitude: 56.95282
  };
 
- const simpleMarkerSymbolP = { 
+ const simpleMarkerSymbol2 = { 
     type: "simple-marker",
     color: [255, 20, 147],  // Pink
     outline: {
@@ -134,33 +134,33 @@ border-radius: 5px;
     }
  };
 
-  const popupTemplateP = { 
+  const popupTemplate2 = { 
     title: "{Name}",
     content: "{Description}"
  }
- const attributesP = { 
+ const attributes2 = { 
     Name: "The Freedom Monument",
     Description: "42m statue dedicated to Latvians who lost their lives fighting for independence between 1918 & 1920"
  } 
  
- const pointGraphicP = new Graphic({
-    geometry: pointP,
-    symbol: simpleMarkerSymbolP, 
-    attributes: attributesP,
-    popupTemplate: popupTemplateP
+ const pointGraphic2 = new Graphic({
+    geometry: point2,
+    symbol: simpleMarkerSymbol2, 
+    attributes: attributes2,
+    popupTemplate: popupTemplate2
  });
 
- graphicsLayer.add(pointGraphicP); 
+ graphicsLayer.add(pointGraphic2); 
 
 
  // Mario Pizza & Pasta
- const pointC = { 
+ const point3 = { 
     type: "point",
     longitude: 24.33377,
     latitude: 57.07983
  };
 
- const simpleMarkerSymbolC = { 
+ const simpleMarkerSymbol3 = { 
     type: "simple-marker",
     color: [255, 20, 147],  // Pink
     outline: {
@@ -169,23 +169,23 @@ border-radius: 5px;
     }
  };
 
-  const popupTemplateC = { 
+  const popupTemplate3 = { 
     title: "{Name}",
     content: "{Description}"
  }
- const attributesC = { 
+ const attributes3 = { 
     Name: "Mario Pizza & Pasta",
     Description: " My partners favorite pizza place"
  } 
  
- const pointGraphicC = new Graphic({
-    geometry: pointC,
-    symbol: simpleMarkerSymbolC, 
-    attributes: attributesC,
-    popupTemplate: popupTemplateC
+ const pointGraphic3 = new Graphic({
+    geometry: point3,
+    symbol: simpleMarkerSymbol3, 
+    attributes: attributes3,
+    popupTemplate: popupTemplate3
  });
 
- graphicsLayer.add(pointGraphicC); 
+ graphicsLayer.add(pointGraphic3); 
 
   // HEART 
   const polygon = { // sets the polygon geometry
@@ -293,7 +293,6 @@ border-radius: 5px;
     }
  };
 
-
  const popupTemplate = {
     title: "{Name}",
     content: "{Description}"
@@ -311,6 +310,8 @@ border-radius: 5px;
 
  });
  graphicsLayer.add(polygonGraphic);
+
+ // Adding a tool to find shops food and parks
 
  const places = ["Choose a place type...", "Parks and Outdoors", "Coffee shop", "Food"];
 
@@ -382,6 +383,8 @@ select.addEventListener('change', function (event) {
 findPlaces(event.target.value, view.center);
 });
 
+
+// learned fast that this is a must !!!
 });
  
 </script>
