@@ -21,7 +21,7 @@ https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collecti
 
 https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection_survey/FeatureServer
 
-## Trying to add data from my new empty hosted layer in map veiwer!
+## Trying to add data from my new empty hosted layer in map viewer!
 
 I kept getting an error when trying to add a point in my map, I kept adding this layer with "Add to new map with full editing control" still nothing would happen. I create multiple different layers in ArcGIS Developers to see if that was the problem. I'm able to add a point it just doesn't show up in the table.
 
