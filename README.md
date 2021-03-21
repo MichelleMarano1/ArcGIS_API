@@ -1,9 +1,7 @@
 # Activity Log
-Personal Development Log for Geom99
+Learning Development Log for Geom99
 
-Task name can correspond to a single log file with detailed notes.
-
-## Week 7 and 8: AWS EC2 and ArcGIS Server
+## Week 7 and 10: AWS EC2 and ArcGIS Server
 
 | Task Name     | Date     | Time   | Outcomes | Resources  | To Do |
 | ------------- |:--------:| ------ | ---------| ---------- | ----- |
