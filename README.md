@@ -1,7 +1,7 @@
-# Activity Log 7 - 10 Weeks
+# Activity Log for weeks 7 - 10
 Learning Development Log for Geom99
 
-## Week 7 and 10: AWS EC2 and ArcGIS Server
+## Learning to use AWS EC2 and ArcGIS Server
 
 | Task Name     | Date     | Time   | Outcomes | Resources  | To Do / HomeWork |
 | ------------- |:--------:| ------ | ---------| ---------- | ----- |
