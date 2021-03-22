@@ -10,6 +10,8 @@ Learning Development Log for Geom99
 | Do readings!  | 17/03/2021 | 2hr |Learned  | https://enterprise.arcgis.com/en/server/latest/publish-services/windows/services-in-arcgis-enterprise.htm https://enterprise.arcgis.com/en/server/latest/publish-services/windows/relationships-between-web-services-and-portal-items.htm| Rewatch Shawns Video|
 | Started instance again!  | 21/03/2021 | 40 minutes | Started instance and finally connected the IP to my remote computer!  |https://www.youtube.com/watch?v=IIBy6d2whEg&ab_channel=ShawnatGeomaticsFleming |Learn how to connect ArcGIS Server!|
 | Logged into ArcGIS server | 21/03/2021 | 01:44:15 minutes | Loged into ArcGIS manager on my own broswer using the IP address in the URL, also connected my server to my ArcGIS pro using that URL! Could not publish however | https://www.youtube.com/watch?v=IIBy6d2whEg&ab_channel=ShawnatGeomaticsFleming and https://www.duckdns.org/ | Homework, keeping playing with the server to leanr how to publish to Canada Map to Server now! Also I loged into DuckDNS need to figure out how to change my domain!|
+| Learn how to publish tp ArcGIS server from Arcpro | 22/03/2021 | 20 minutes | Watched the Managing Portal from ArcGIS Pro and Arc Map to learn more to figure out what im missing to publish | https://www.youtube.com/watch?v=KItDcnDQce0&ab_channel=ShawnatGeomaticsFleming | Homework, Create a DucksDNS|
+
 
 
 
