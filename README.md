@@ -14,6 +14,10 @@ Learning Development Log for Geom99
 | Created a DuckDNS domain| 22/03/2021 | 13 minutes |Changed the bindings and updated the SSL Certificate  | https://www.youtube.com/watch?v=V2o07DMyNkc&t=23s&ab_channel=ShawnatGeomaticsFleming | Now publish to Arc Server |
 | Published to Arc Server!| 22/03/2021 | 35 minutes | Learned how to publish my Canada map layer from ArcGISPro to AWS EC2, and registered the data.  | https://www.youtube.com/watch?v=V2o07DMyNkc&t=23s&ab_channel=ShawnatGeomaticsFleming | Learn how to publish more! |
 
+Finally Published!
+![wooot wooot](https://user-images.githubusercontent.com/73148622/112070057-56302e80-8b43-11eb-9a50-ecbb4a63b109.JPG)
+
+![uploaded](https://user-images.githubusercontent.com/73148622/112070052-54ff0180-8b43-11eb-9dad-0ecf29b31f0a.JPG)
 
 
 
