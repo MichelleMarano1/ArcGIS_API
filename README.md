@@ -13,6 +13,7 @@ Learning Development Log for Geom99
 | Learn how to publish tp ArcGIS server from Arcpro | 22/03/2021 | 20 minutes | Watched the Managing Portal from ArcGIS Pro and Arc Map to learn more to figure out what im missing to publish | https://www.youtube.com/watch?v=KItDcnDQce0&ab_channel=ShawnatGeomaticsFleming | Homework, Create a DucksDNS|
 | Created a DuckDNS domain| 22/03/2021 | 13 minutes |Changed the bindings and updated the SSL Certificate  | https://www.youtube.com/watch?v=V2o07DMyNkc&t=23s&ab_channel=ShawnatGeomaticsFleming | Now publish to Arc Server |
 | Published to Arc Server!| 22/03/2021 | 35 minutes | Learned how to publish my Canada map layer from ArcGISPro to AWS EC2, and registered the data.  | https://www.youtube.com/watch?v=V2o07DMyNkc&t=23s&ab_channel=ShawnatGeomaticsFleming | Learn how to publish more! |
+|Helped someone else!| 23/03/2021 | 15 minutes | Helped someone publish their Canada Layer and showed them how to register their layer, this solidified my learning.  | https://enterprise.arcgis.com/en/server/latest/manage-data/windows/registering-your-data-with-arcgis-server-using-manager.htm | What else can I publish more? |
 
 Finally Published!
 
