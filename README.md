@@ -3,8 +3,8 @@ Learning Development Log for Geom99
 
 ## Learning to use AWS EC2 and ArcGIS Server
 
-|    Task Name     |    Date     |    Time   |     Outcomes    | Resources for Learning | To Do / Homework |
-| ------------- |:--------:| ------ | --------------------| ---------- | ----- |
+|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
+| ------------- |:--------:| ------ | ----------------------------------------  | ---------- | ----- |
 | Setting up Everything| 3/03/2021 | 35min | Starting up Instance for the first time, Did not successfully connect the IPv4 to my remote computer, so I stopped the instance | Used Clockify to track my time https://clockify.me/tracker at the end it said I was learning for 47 minutes.  | Learning to connect instance IP address to my computer. And read https://www.mindtools.com/pages/article/newHTE_03.htm To set up Activity log  |
 | Set Activity log to start this process! | 13/03/2021 | 1hr |Learned how to make columns with markdown! | https://www.markdownguide.org/extended-syntax/ | Still can not get instance to connect to my computer maybe ask someone else what they did. |
 | Do readings!  | 17/03/2021 | 3hr | Learned about what a web service is and managing the services, also learned about Cached services and type of services. Learned about understand federation and portal items| https://enterprise.arcgis.com/en/server/latest/publish-services/windows/services-in-arcgis-enterprise.htm https://enterprise.arcgis.com/en/server/latest/publish-services/windows/relationships-between-web-services-and-portal-items.htm| Re Watch Shawn’s Video|
