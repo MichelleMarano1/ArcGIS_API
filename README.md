@@ -11,7 +11,7 @@ Learning Development Log for Geom99
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
 | Created my Own Map! | 28/03/2021 | 01:06:16min | Starting up Instance, found new data to add this time being crime statistics and published that new layer as a map  |How I did this was added the new layers folder first to my (C:) drive inside the GISWorkspace then to the remote comupters (C:) drive inside the GIT Workspace, I then opened ArcPro refresed my folder connection in the Database server connection. Right clicked then pressed published, figured out any errors such as registering the folder layer then published the map and Hit the View Pubilsh map to view in the REST End point| Create an App with this Map using an Configurable App |
-| Group Project / Esri Configurables | 18/03/2021 | 2hr | After finding new data I uploaded that data into arc online and map a simple map then I used arcgis experience builder developer to test out what I can do with my data how to display my data! | https://developers.arcgis.com/experience-builder/ | Need approval from Shawn to continue with path |
+| Group Project / Esri Configurables | 18/03/2021 | 2hr | After finding new data I uploaded that data into arc online and map a simple map then I used arcgis experience builder developer to test out what I can do with my data how to display my data! | https://developers.arcgis.com/experience-builder/ | Need approval from Shawn to continue with this path |
 
 
 # Group project Work WEEK 9-11   
