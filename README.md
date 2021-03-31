@@ -5,8 +5,8 @@
 # Activity Log for weeks 10 - 12 - ONGOING
 Learning Development Log for Geom99
 
-
 ## Intrustions for publishing to ArcGIS Server from AWS EC2 and ArcGIS Pro WEEK 10 AND Group Project Update
+### Estimated time spent on this is 3 hours 
 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
@@ -14,14 +14,16 @@ Learning Development Log for Geom99
 | Group Project / Esri Configurables | 18/03/2021 | 2hr | After finding new data I uploaded that data into arc online and map a simple map then I used arcgis experience builder developer to test out what I can do with my data how to display my data! | https://developers.arcgis.com/experience-builder/ | Need approval from Shawn to continue with path |
 
 
-# Group project Work WEEK 9-11
+# Group project Work WEEK 9-11   
+### Estimated time spent on this is 9 hours 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
 | OpenWeathermap | 17/03/2021 | 4hr | Read the learned about the historical weather API provided by OpenWeathermap.org, tried to make the API work for our project found that this API is very expensive then tried to find and open source API but then also found that they use Python to work it. Can to the conclusion our idea with historial weather just wont not work in our time frame | https://openweathermap.org/api/one-call-api#history | Keep exploring other ways to represent what we want to show!!! |
-| FOUND NEW DATA | 18/03/2021 | 4hr | After looking to good climate data that doesn't require so much data manipulation or money, we went on Statistics Canada and found data that is under represnted in the mapping world. From this we decided to use Esri apps to get as much experience with this expensive sofeware before im out of this program | https://open.canada.ca/data/en/dataset/d58cadc6-5f45-423d-afd1-7a228c136f82 | Upload Data to Arc Online and test it out before changing topic!!! |
+| FOUND NEW DATA | 18/03/2021 | 5hr | After looking to good climate data that doesn't require so much data manipulation or money, we went on Statistics Canada and found data that is under represnted in the mapping world. From this we decided to use Esri apps to get as much experience with this expensive sofeware before im out of this program | https://open.canada.ca/data/en/dataset/d58cadc6-5f45-423d-afd1-7a228c136f82 | Upload Data to Arc Online and test it out before changing topic!!! |
 
 # Activity Log for weeks 9
 ## Learning Configurable apps
+### Estimated time spent on this is 14.5 hours 
 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
@@ -30,7 +32,7 @@ Learning Development Log for Geom99
 |  Mapbox | 19/03/2021 | 2hr | followed a tutorial to build a simple map in Mapbox, created one style | https://docs.mapbox.com/api/maps/ | Could not get my Luna Service to work had to use the demo serivce! I think its becasue of projection problems |
 |  Leaflet | 20/03/2021 | 2.5hr | Build a cool map using leafletjs to build a map that has a slide bar to show 2 maps at once! | https://github.com/digidem/leaflet-side-by-side | What else can I do! create a website next!|
 | Vertigis Geocortex and Geocortex Essentials 4| 23/03/2021 | 2hr | Watch a video about the Essentials of Geocortex and explored the goverment app! Also explore the 4 videos  | https://www.youtube.com/watch?v=nLtWz9iP3H0&ab_channel=Geocortex | |
-| Esri Configurables | 27/03/2021 | over a couple of days | Built a dashboard, used WebAppBuilder, tried out Experience builder, Created a StoryMap, watched the Focused Configurable Apps Video and explored the github!  | https://www.youtube.com/watch?v=PQjvUVwqic8 https://www.youtube.com/watch?v=t_oFnIIJA-A https://www.youtube.com/watch?v=Vu6_pBa7zis | Try to create an app using my server data |
+| Esri Configurables | 27/03/2021 | over a couple of days / 4hr| Built a dashboard, used WebAppBuilder, tried out Experience builder, Created a StoryMap, watched the Focused Configurable Apps Video and explored the github!  | https://www.youtube.com/watch?v=PQjvUVwqic8 https://www.youtube.com/watch?v=t_oFnIIJA-A https://www.youtube.com/watch?v=Vu6_pBa7zis | Try to create an app using my server data |
 | Read and Explore: Rolta OnPoint | 29/03/2021 | 2hr | Read the leanred and got basic understanding of what Rolta Onpoint does and nagivated through the map veiwer  | https://maps.kitchener.ca/OnPointExternal/RMap/Default.aspx | Keep exploring the capabilities of this software |
 
 
