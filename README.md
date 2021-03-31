@@ -1,6 +1,6 @@
 # Activity Log / Learning Development Log for Geom99
 ### The entries in this log go in order from oldest and newest
-
+### Currently have Spent around 26.5 hours on these items over the last 3 weeks
 
 # Activity Log for weeks 10 - 12 - ONGOING
 Learning Development Log for Geom99
