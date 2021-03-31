@@ -34,8 +34,8 @@ Learning Development Log for Geom99
 | Read and Explore: Rolta OnPoint | 29/03/2021 | 2hr | Read the leanred and got basic understanding of what Rolta Onpoint does and nagivated through the map veiwer  | https://maps.kitchener.ca/OnPointExternal/RMap/Default.aspx | Keep exploring the capabilities of this software |
 
 
-# Weeks 7-8
-## Learning to use AWS EC2 and ArcGIS Server - Completed 
+# Weeks 7-8 Completed / SUBMITTED LOG
+## Learning to use AWS EC2 and ArcGIS Server - 
 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
