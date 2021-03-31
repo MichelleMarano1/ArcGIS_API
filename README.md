@@ -1,7 +1,31 @@
-# Activity Log for weeks 7 - 10
+# Activity Log / Learning Development Log for Geom99
+### The entries in this log go in order from oldest and newest
+
+
+# Activity Log for weeks 10 - 12 - ONGOING
 Learning Development Log for Geom99
 
-## Learning to use AWS EC2 and ArcGIS Server
+## Intrustions for publishing to ArcGIS Server from AWS EC2 and ArcGIS Pro
+
+|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
+| ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
+| Created my Own Map! | 28/03/2021 | 01:06:16min | Starting up Instance, found new data to add this time being crime statistics and published that new layer as a map  |How I did this was added the new layers folder first to my (C:) drive inside the GISWorkspace then to the remote comupters (C:) drive inside the GIT Workspace, I then opened ArcPro refresed my folder connection in the Database server connection. Right clicked then pressed published, figured out any errors such as registering the folder layer then published the map and Hit the View Pubilsh map to view in the REST End point| Create an App with this Map using an Configurable App |
+
+# Activity Log for weeks 9
+
+## Learning to Configurable apps
+
+|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
+| ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
+| Leaflet | 15/03/2021 | 35min | Understood what the capliltabiles of what Leaflet can do | https://leafletjs.com/index.html | Build a map!  |
+|  Mapbox | 19/03/2021 | 1.5hr | Signed up for a Mapbox API! and read about the API | https://docs.mapbox.com/api/maps/ | Learn how to build a map! |
+|  Mapbox | 19/03/2021 | 2hr | followed a tutorial to build a simple map in Mapbox, created one style | https://docs.mapbox.com/api/maps/ | Could not get my Luna Service to work had to use the demo serivce! I think its becasue of projection problems |
+|  Leaflet | 20/03/2021 | 2.5hr | Build a cool map using leafletjs to build a map that has a slide bar to show 2 maps at once! | https://github.com/digidem/leaflet-side-by-side | What else can I do! create a website next!|
+| Vertigis Geocortex and Geocortex Essentials 4| 23/03/2021 | 2hr | Watch a video about the Essentials of Geocortex and explored the goverment app! Also explore the 4 videos  | https://www.youtube.com/watch?v=nLtWz9iP3H0&ab_channel=Geocortex | |
+| Esri Configurables | 27/03/2021 | over a couple of days | Built a dashboard, used WebAppBuilder, tried out Experience builder, Created a StoryMap, watched the Focused Configurable Apps Video and explored the github!  | https://www.youtube.com/watch?v=PQjvUVwqic8 https://www.youtube.com/watch?v=t_oFnIIJA-A https://www.youtube.com/watch?v=Vu6_pBa7zis | Try to create an app using my server data |
+
+# Weeks 7-8
+## Learning to use AWS EC2 and ArcGIS Server 
 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
@@ -23,26 +47,3 @@ Finally Published!
 
 ![uploaded](https://user-images.githubusercontent.com/73148622/112070052-54ff0180-8b43-11eb-9dad-0ecf29b31f0a.JPG)
 
-
-# Activity Log for weeks 9
-
-## Learning to Configurable apps
-
-|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
-| ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
-| Leaflet | 15/03/2021 | 35min | Understood what the capliltabiles of what Leaflet can do | https://leafletjs.com/index.html | Build a map!  |
-|  Mapbox | 19/03/2021 | 1.5hr | Signed up for a Mapbox API! and read about the API | https://docs.mapbox.com/api/maps/ | Learn how to build a map! |
-|  Mapbox | 19/03/2021 | 2hr | followed a tutorial to build a simple map in Mapbox, created one style | https://docs.mapbox.com/api/maps/ | Could not get my Luna Service to work had to use the demo serivce! I think its becasue of projection problems |
-|  Leaflet | 20/03/2021 | 2.5hr | Build a cool map using leafletjs to build a map that has a slide bar to show 2 maps at once! | https://github.com/digidem/leaflet-side-by-side | What else can I do! create a website next!|
-| Vertigis Geocortex and Geocortex Essentials 4| 23/03/2021 | 2hr | Watch a video about the Essentials of Geocortex and explored the goverment app! Also explore the 4 videos  | https://www.youtube.com/watch?v=nLtWz9iP3H0&ab_channel=Geocortex | |
-| Esri Configurables | 27/03/2021 | over a couple of days | Built a dashboard, used WebAppBuilder, tried out Experience builder, Created a StoryMap, watched the Focused Configurable Apps Video and explored the github!  | https://www.youtube.com/watch?v=PQjvUVwqic8 https://www.youtube.com/watch?v=t_oFnIIJA-A https://www.youtube.com/watch?v=Vu6_pBa7zis | Try to create an app using my server data |
-
-
-# Activity Log for weeks 10 - 12
-Learning Development Log for Geom99
-
-## Learning to use AWS EC2 and ArcGIS Server
-
-|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
-| ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
-| Created my Own Map! | 28/03/2021 | 01:06:16min | Starting up Instance, found new data to add this time being crime statistics and published that new layer as a map  |  | Create an App with this Map using an Configurable App |
