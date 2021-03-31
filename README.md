@@ -21,7 +21,7 @@ Learning Development Log for Geom99
 | FOUND NEW DATA | 18/03/2021 | 4hr | After looking to good climate data that doesn't require so much data manipulation or money, we went on Statistics Canada and found data that is under represnted in the mapping world. From this we decided to use Esri apps to get as much experience with this expensive sofeware before im out of this program | https://open.canada.ca/data/en/dataset/d58cadc6-5f45-423d-afd1-7a228c136f82 | Upload Data to Arc Online and test it out before changing topic!!! |
 
 # Activity Log for weeks 9
-## Learning to Configurable apps
+## Learning Configurable apps
 
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
