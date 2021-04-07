@@ -1,9 +1,19 @@
 # Activity Log / Learning Development Log for Geom99
 ### The entries in this log go in order from oldest and newest
-#### Currently have spent around 26.5 hours on these items within the Ongoing list over the last 3 weeks
+#### Currently have spent around 10 hours on these items within the Ongoing list over the last week
 
-# Activity Log for weeks 10 - 12 - ONGOING
+# Activity Log for weeks 12 - 13 ONGOING
+|    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
+| ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
+| Group Project / ArcGIS Congiurable apps | 06/04/2021 | 2hr | Watch a video to help me better understand the purpose of Experience Builder and what I could use it for in regards to the Dashboards that were created. Learned how to create multiple pages, add the dashboards in and create buttons | https://www.youtube.com/watch?v=pNrsd5naN7U&ab_channel=EsriEvents  AND https://www.youtube.com/watch?v=zQMBhtQOwwY&ab_channel=EsriCanada | Continue creating in Experience Builder and learn more |
+| Group Project / ArcGIS Congiurable apps | 02/04/2021 | 1.5hr |Watch a lecture then learned how to author a Dashboard from scratch and how to make the elements talk to each other | https://www.youtube.com/watch?v=zrxYWzSvJ6E&ab_channel=EsriEvents | Continue to Experience Builder |
+| Group Project / ArcGIS Online | 02/04/2021 | 2.5hr | Figured out the data I wanted to download and manipulate in ArcGIS Pro was in a REST end point, took the URL and made a map righ in Arc Online and used the spatial analisys tool, used 3 REST URLS to create my maps. | https://developers.arcgis.com/rest/services-reference/using-the-services-directory.htm | Continue to Dasboards |
+| Group Project / ArcGIS Pro / ArcGIS Online | 02/04/2021 | 1hr | Made map in Arc pro then uploaded it right into Arc Online then created a web map | https://doc.arcgis.com/en/arcgis-online/manage-data/publish-features.htm#:~:text=hosted%20feature%20layers.-,Open%20Content%20%3E%20My%20Content%2C%20click%20Add%20Item%2C%20and%20click,must%20be%20compressed%20as%20a%20. | Continue |
+| Group Project / Arc Pro | 31/03/2021 | 3hr | Found language data from Statistics Canada reviewed the data and fixed all of ontario since most of the languages were marked as "undetermined which is not the case | https://native-land.ca/ | Make map and upload it to Arc Online |
+
+# Activity Log for weeks 10 - 12 - COMPLETED
 Learning Development Log for Geom99
+#### Currently have spent around 26.5 hours on these items within the Ongoing list over the last 3 weeks
 
 ## Intrustions for publishing to ArcGIS Server from AWS EC2 and ArcGIS Pro WEEK 10 AND Group Project Update
 ### Estimated time spent on this is 3 hours 
