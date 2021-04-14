@@ -1,17 +1,17 @@
 # Activity Log / Learning Development Log for Geom99
 ### The entries in this log go in order from oldest and newest
-#### Currently have spent around 11 hours on these items within the Ongoing list over the last week
+#### Currently have spent around 10.5 hours on these items within the Ongoing list over the last week
 
-# Activity Log for weeks 12 - 13 ONGOING
+# Activity Log for weeks 13 - 14 ONGOING
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
-| Group Project / ArcGIS Online | 12/04/2021 | 1hr | Calvin made HTML outline for webite, went in and added the CSS to it! Jessica and I figured out how to add an iframe to hold our Experience builder app!  | https://doc.arcgis.com/en/experience-builder/configure-widgets/embed-widget.htm | Add to Experience Builder |
-| Group Project / ArcGIS Online | 12/04/2021 | 1hr | Learned how to created MYscene on ArcGIS Online, then created an configurable app using "Compare" to compare Side by Side 2 scene maps with Synchronize popups  | https://www.youtube.com/watch?v=misQSC6_VbI&ab_channel=ArcGIS | Add into Experience Builder |
+| Group Project / ArcGIS Online | 12/04/2021 | 3hr | Finished up the layouts in experince builder as a group, learned how to create buttons adds images etc. learned downfall to scrollable pages you lose full control there is now grids that you must follow and makes design more difficult | hhttps://www.youtube.com/watch?v=Xo6T_Qnt9Q4&ab_channel=AhinoamPollack| The thing to be done is to figure out the different screens sizes and makes the necessary changes |
+| Group Project / ArcGIS Online | 12/04/2021 | 2hr | Calvin made HTML outline for webite, went in and added the CSS to it! Jessica and I figured out how to add an iframe to hold our Experience builder app!  | https://doc.arcgis.com/en/experience-builder/configure-widgets/embed-widget.htm | Add to Experience Builder |
 | Group Project / ArcGIS Online | 12/04/2021 | 1hr | Learned how to created MYscene on ArcGIS Online, then created an configurable app using "Compare" to compare Side by Side 2 scene maps with Synchronize popups  | https://doc.arcgis.com/en/experience-builder/build-apps/add-a-page.htm  AND https://doc.arcgis.com/en/experience-builder/build-apps/design-for-mobile-devices.htm | Add into Experience Builder |
 | Group Project / ArcGIS Experience Builder | 10/04/2021 | 3hr | After creating all the pages, relized we didnt use srcollable pages had to read about the different pages again and redo the site that was scrollable | https://doc.arcgis.com/en/experience-builder/build-apps/add-a-page.htm  AND https://doc.arcgis.com/en/experience-builder/build-apps/design-for-mobile-devices.htm | Continue creating in Experience Builder |
 | Mapbox | 07/04/2021 | 1.5hr | Started up instance again to try and figure out mapbox adding my canadamap layer to my Mapbox API | https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/ AND https://community.esri.com/t5/arcgis-enterprise-questions/consume-arcgis-services-in-mapbox-gl-api/m-p/449641 | Create website |
 
-# Activity Log for weeks 12 - 13 ONGOING
+# Activity Log for weeks 12 - 13 COMPLETED
 |    Task Name     |    Date     |    Time   |                  Outcomes                    | Resources for Learning | To Do / Homework |
 | ------------- |:--------:| -------------------- | ----------------------------------------  | ---------- | ----- |
 | Group Project / ArcGIS Congiurable apps | 06/04/2021 | 3hr | Watch a video to help me better understand the purpose of Experience Builder and what I could use it for in regards to the Dashboards that were created. Learned how to create multiple pages, add the dashboards in and create buttons | https://www.youtube.com/watch?v=pNrsd5naN7U&ab_channel=EsriEvents  AND https://www.youtube.com/watch?v=zQMBhtQOwwY&ab_channel=EsriCanada | Continue creating in Experience Builder and learn more, learn out to host these apps in a webpage! |
